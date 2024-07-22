@@ -1,4 +1,3 @@
-import 'package:ecommerceapp/utility/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -133,7 +132,7 @@ class ProductGridTile extends StatelessWidget {
         ),
         child: CustomNetworkImage(
           imageUrl: product.images!.isNotEmpty
-              ? "$IMAGE_URL/${product.images?.safeElementAt(0)?.url}" 
+              ? "${product.images?.safeElementAt(0)?.url}" 
               : '',
           fit: BoxFit.scaleDown,
           scale: 3.0,

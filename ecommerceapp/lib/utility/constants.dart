@@ -1,4 +1,4 @@
-const MAIN_URL = 'http://192.168.1.9:3000';
+const MAIN_URL = 'http://192.168.1.23:3000';
 const IMAGE_URL = '$MAIN_URL/image';
 
 const FAVORITE_PRODUCT_BOX = 'FAVORITE_PRODUCT_BOX';
